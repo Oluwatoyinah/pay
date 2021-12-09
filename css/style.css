@@ -1,0 +1,32 @@
+.container {
+	padding: 100px 15%;
+	display: grid;
+	place-content:center;
+}
+
+.but1 {
+	padding: 10px 20px;
+	color: white ;
+	font-size: 14px;
+	background-color:#1a1a1f;
+	border: 2px solid #1a1a1f;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+.but1:hover {
+	padding: 10px 20px;
+	color: #1a1a1f ;
+	font-size: 14px;
+	background-color:transparent;
+	border: 2px solid #1a1a1f;
+	text-align: center;
+	width: 100%;
+	font-weight: bold;
+}
+label {
+	font-size: 14px;
+	/*font-weight: bold;*/
+}
